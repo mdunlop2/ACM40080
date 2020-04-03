@@ -5,11 +5,11 @@
  run_seconds                         = 0,
  start_year                          = 2020, 2000, 2000,
  start_month                         = 03,   01,   01,
- start_day                           = 17,   24,   24,
+ start_day                           = 18,   24,   24,
  start_hour                          = 00,   12,   12,
  end_year                            = 2020, 2000, 2000,
  end_month                           = 03,   01,   01,
- end_day                             = 18,   25,   25,
+ end_day                             = 19,   25,   25,
  end_hour                            = 00,   12,   12,
  interval_seconds                    = 10800
  input_from_file                     = .true.,.true.,.true.,
