@@ -1,0 +1,562 @@
+taskid: 0 hostname: compute-1-3.local
+Quilting with   1 groups of   0 I/O tasks.
+ Ntasks in X            2 , ntasks in Y            4
+*************************************
+Configuring physics suite 'conus'
+
+         mp_physics:      8
+         cu_physics:      6
+      ra_lw_physics:      4
+      ra_sw_physics:      4
+     bl_pbl_physics:      2
+  sf_sfclay_physics:      2
+ sf_surface_physics:      2
+*************************************
+WRF V4.1.4 MODEL
+ *************************************
+ Parent domain
+ ids,ide,jds,jde            1          74           1          61
+ ims,ime,jms,jme           -4          44          -4          22
+ ips,ipe,jps,jpe            1          37           1          15
+ *************************************
+DYNAMICS OPTION: Eulerian Mass Coordinate
+   alloc_space_field: domain            1 ,              35431940  bytes allocated
+  med_initialdata_input: calling input_input
+   Input data is acceptable to use: wrfinput_d01
+Timing for processing wrfinput file (stream 0) for domain        1:    0.13842 elapsed seconds
+Max map factor in domain 1 =  1.01. Scale the dt in the model accordingly.
+INPUT LandUse = "MODIFIED_IGBP_MODIS_NOAH"
+ LANDUSE TYPE = "MODIFIED_IGBP_MODIS_NOAH" FOUND          33  CATEGORIES           2  SEASONS WATER CATEGORY =           17  SNOW CATEGORY =           15
+INITIALIZE THREE Noah LSM RELATED TABLES
+Skipping over LUTYPE = USGS
+ LANDUSE TYPE = MODIFIED_IGBP_MODIS_NOAH FOUND          20  CATEGORIES
+ INPUT SOIL TEXTURE CLASSIFICATION = STAS
+ SOIL TEXTURE CLASSIFICATION = STAS FOUND          19  CATEGORIES
+ThompMP: read qr_acr_qg.dat instead of computing
+ThompMP: read qr_acr_qs.dat instead of computing
+ThompMP: read freezeH2O.dat instead of computing
+Timing for Writing wrfout_d01_2020-03-18_00:00:00 for domain        1:    0.68696 elapsed seconds
+d01 2020-03-18_00:00:00  Input data is acceptable to use: wrfbdy_d01
+Timing for processing lateral boundary for domain        1:    0.13263 elapsed seconds
+ Tile Strategy is not specified. Assuming 1D-Y
+WRF TILE   1 IS      1 IE     37 JS      1 JE     15
+WRF NUMBER OF TILES =   1
+Timing for main: time 2020-03-18_00:03:00 on domain   1:    1.52669 elapsed seconds
+Timing for main: time 2020-03-18_00:06:00 on domain   1:    0.20282 elapsed seconds
+Timing for main: time 2020-03-18_00:09:00 on domain   1:    0.19557 elapsed seconds
+Timing for main: time 2020-03-18_00:12:00 on domain   1:    0.21014 elapsed seconds
+Timing for main: time 2020-03-18_00:15:00 on domain   1:    0.20406 elapsed seconds
+Timing for main: time 2020-03-18_00:18:00 on domain   1:    0.21658 elapsed seconds
+Timing for main: time 2020-03-18_00:21:00 on domain   1:    0.20961 elapsed seconds
+Timing for main: time 2020-03-18_00:24:00 on domain   1:    0.22311 elapsed seconds
+Timing for main: time 2020-03-18_00:27:00 on domain   1:    0.21623 elapsed seconds
+Timing for main: time 2020-03-18_00:30:00 on domain   1:    0.22794 elapsed seconds
+Timing for main: time 2020-03-18_00:33:00 on domain   1:    0.73720 elapsed seconds
+Timing for main: time 2020-03-18_00:36:00 on domain   1:    0.23301 elapsed seconds
+Timing for main: time 2020-03-18_00:39:00 on domain   1:    0.22583 elapsed seconds
+Timing for main: time 2020-03-18_00:42:00 on domain   1:    0.23869 elapsed seconds
+Timing for main: time 2020-03-18_00:45:00 on domain   1:    0.23230 elapsed seconds
+Timing for main: time 2020-03-18_00:48:00 on domain   1:    0.24387 elapsed seconds
+Timing for main: time 2020-03-18_00:51:00 on domain   1:    0.23594 elapsed seconds
+Timing for main: time 2020-03-18_00:54:00 on domain   1:    0.24589 elapsed seconds
+Timing for main: time 2020-03-18_00:57:00 on domain   1:    0.23750 elapsed seconds
+Timing for main: time 2020-03-18_01:00:00 on domain   1:    0.24693 elapsed seconds
+Timing for Writing wrfout_d01_2020-03-18_01:00:00 for domain        1:    0.22827 elapsed seconds
+Timing for main: time 2020-03-18_01:03:00 on domain   1:    0.98457 elapsed seconds
+Timing for main: time 2020-03-18_01:06:00 on domain   1:    0.24908 elapsed seconds
+Timing for main: time 2020-03-18_01:09:00 on domain   1:    0.24046 elapsed seconds
+Timing for main: time 2020-03-18_01:12:00 on domain   1:    0.24989 elapsed seconds
+Timing for main: time 2020-03-18_01:15:00 on domain   1:    0.24159 elapsed seconds
+Timing for main: time 2020-03-18_01:18:00 on domain   1:    0.25200 elapsed seconds
+Timing for main: time 2020-03-18_01:21:00 on domain   1:    0.24235 elapsed seconds
+Timing for main: time 2020-03-18_01:24:00 on domain   1:    0.25316 elapsed seconds
+Timing for main: time 2020-03-18_01:27:00 on domain   1:    0.24238 elapsed seconds
+Timing for main: time 2020-03-18_01:30:00 on domain   1:    0.25170 elapsed seconds
+Timing for main: time 2020-03-18_01:33:00 on domain   1:    1.17447 elapsed seconds
+Timing for main: time 2020-03-18_01:36:00 on domain   1:    0.25174 elapsed seconds
+Timing for main: time 2020-03-18_01:39:00 on domain   1:    0.24293 elapsed seconds
+Timing for main: time 2020-03-18_01:42:00 on domain   1:    0.25523 elapsed seconds
+Timing for main: time 2020-03-18_01:45:00 on domain   1:    0.24320 elapsed seconds
+Timing for main: time 2020-03-18_01:48:00 on domain   1:    0.26052 elapsed seconds
+Timing for main: time 2020-03-18_01:51:00 on domain   1:    0.24292 elapsed seconds
+Timing for main: time 2020-03-18_01:54:00 on domain   1:    0.25329 elapsed seconds
+Timing for main: time 2020-03-18_01:57:00 on domain   1:    0.24484 elapsed seconds
+Timing for main: time 2020-03-18_02:00:00 on domain   1:    0.25457 elapsed seconds
+Timing for Writing wrfout_d01_2020-03-18_02:00:00 for domain        1:    0.22667 elapsed seconds
+Timing for main: time 2020-03-18_02:03:00 on domain   1:    2.28240 elapsed seconds
+Timing for main: time 2020-03-18_02:06:00 on domain   1:    0.25287 elapsed seconds
+Timing for main: time 2020-03-18_02:09:00 on domain   1:    0.24360 elapsed seconds
+Timing for main: time 2020-03-18_02:12:00 on domain   1:    0.25337 elapsed seconds
+Timing for main: time 2020-03-18_02:15:00 on domain   1:    0.24389 elapsed seconds
+Timing for main: time 2020-03-18_02:18:00 on domain   1:    0.25698 elapsed seconds
+Timing for main: time 2020-03-18_02:21:00 on domain   1:    0.24513 elapsed seconds
+Timing for main: time 2020-03-18_02:24:00 on domain   1:    0.25322 elapsed seconds
+Timing for main: time 2020-03-18_02:27:00 on domain   1:    0.24311 elapsed seconds
+Timing for main: time 2020-03-18_02:30:00 on domain   1:    0.25393 elapsed seconds
+Timing for main: time 2020-03-18_02:33:00 on domain   1:    2.05032 elapsed seconds
+Timing for main: time 2020-03-18_02:36:00 on domain   1:    0.25273 elapsed seconds
+Timing for main: time 2020-03-18_02:39:00 on domain   1:    0.24298 elapsed seconds
+Timing for main: time 2020-03-18_02:42:00 on domain   1:    0.25344 elapsed seconds
+Timing for main: time 2020-03-18_02:45:00 on domain   1:    0.24666 elapsed seconds
+Timing for main: time 2020-03-18_02:48:00 on domain   1:    0.25311 elapsed seconds
+Timing for main: time 2020-03-18_02:51:00 on domain   1:    0.24378 elapsed seconds
+Timing for main: time 2020-03-18_02:54:00 on domain   1:    0.25305 elapsed seconds
+Timing for main: time 2020-03-18_02:57:00 on domain   1:    0.24256 elapsed seconds
+Timing for main: time 2020-03-18_03:00:00 on domain   1:    0.25280 elapsed seconds
+Timing for Writing wrfout_d01_2020-03-18_03:00:00 for domain        1:    0.22434 elapsed seconds
+d01 2020-03-18_03:00:00  Input data is acceptable to use: wrfbdy_d01
+Timing for processing lateral boundary for domain        1:    0.05609 elapsed seconds
+Timing for main: time 2020-03-18_03:03:00 on domain   1:    2.33769 elapsed seconds
+Timing for main: time 2020-03-18_03:06:00 on domain   1:    0.25172 elapsed seconds
+Timing for main: time 2020-03-18_03:09:00 on domain   1:    0.24155 elapsed seconds
+Timing for main: time 2020-03-18_03:12:00 on domain   1:    0.25234 elapsed seconds
+Timing for main: time 2020-03-18_03:15:00 on domain   1:    0.24185 elapsed seconds
+Timing for main: time 2020-03-18_03:18:00 on domain   1:    0.24933 elapsed seconds
+Timing for main: time 2020-03-18_03:21:00 on domain   1:    0.24029 elapsed seconds
+Timing for main: time 2020-03-18_03:24:00 on domain   1:    0.24957 elapsed seconds
+Timing for main: time 2020-03-18_03:27:00 on domain   1:    0.23991 elapsed seconds
+Timing for main: time 2020-03-18_03:30:00 on domain   1:    0.25148 elapsed seconds
+Timing for main: time 2020-03-18_03:33:00 on domain   1:    2.03010 elapsed seconds
+Timing for main: time 2020-03-18_03:36:00 on domain   1:    0.24896 elapsed seconds
+Timing for main: time 2020-03-18_03:39:00 on domain   1:    0.24170 elapsed seconds
+Timing for main: time 2020-03-18_03:42:00 on domain   1:    0.25065 elapsed seconds
+Timing for main: time 2020-03-18_03:45:00 on domain   1:    0.24031 elapsed seconds
+Timing for main: time 2020-03-18_03:48:00 on domain   1:    0.24748 elapsed seconds
+Timing for main: time 2020-03-18_03:51:00 on domain   1:    0.24093 elapsed seconds
+Timing for main: time 2020-03-18_03:54:00 on domain   1:    0.24841 elapsed seconds
+Timing for main: time 2020-03-18_03:57:00 on domain   1:    0.23896 elapsed seconds
+Timing for main: time 2020-03-18_04:00:00 on domain   1:    0.25142 elapsed seconds
+Timing for Writing wrfout_d01_2020-03-18_04:00:00 for domain        1:    0.22332 elapsed seconds
+Timing for main: time 2020-03-18_04:03:00 on domain   1:    2.22416 elapsed seconds
+Timing for main: time 2020-03-18_04:06:00 on domain   1:    0.24891 elapsed seconds
+Timing for main: time 2020-03-18_04:09:00 on domain   1:    0.23992 elapsed seconds
+Timing for main: time 2020-03-18_04:12:00 on domain   1:    0.24936 elapsed seconds
+Timing for main: time 2020-03-18_04:15:00 on domain   1:    0.23982 elapsed seconds
+Timing for main: time 2020-03-18_04:18:00 on domain   1:    0.24922 elapsed seconds
+Timing for main: time 2020-03-18_04:21:00 on domain   1:    0.23957 elapsed seconds
+Timing for main: time 2020-03-18_04:24:00 on domain   1:    0.24867 elapsed seconds
+Timing for main: time 2020-03-18_04:27:00 on domain   1:    0.23959 elapsed seconds
+Timing for main: time 2020-03-18_04:30:00 on domain   1:    0.25021 elapsed seconds
+Timing for main: time 2020-03-18_04:33:00 on domain   1:    1.98281 elapsed seconds
+Timing for main: time 2020-03-18_04:36:00 on domain   1:    0.24895 elapsed seconds
+Timing for main: time 2020-03-18_04:39:00 on domain   1:    0.23872 elapsed seconds
+Timing for main: time 2020-03-18_04:42:00 on domain   1:    0.24886 elapsed seconds
+Timing for main: time 2020-03-18_04:45:00 on domain   1:    0.23855 elapsed seconds
+Timing for main: time 2020-03-18_04:48:00 on domain   1:    0.24834 elapsed seconds
+Timing for main: time 2020-03-18_04:51:00 on domain   1:    0.23909 elapsed seconds
+Timing for main: time 2020-03-18_04:54:00 on domain   1:    0.24733 elapsed seconds
+Timing for main: time 2020-03-18_04:57:00 on domain   1:    0.23728 elapsed seconds
+Timing for main: time 2020-03-18_05:00:00 on domain   1:    0.24665 elapsed seconds
+Timing for Writing wrfout_d01_2020-03-18_05:00:00 for domain        1:    0.22181 elapsed seconds
+Timing for main: time 2020-03-18_05:03:00 on domain   1:    2.21068 elapsed seconds
+Timing for main: time 2020-03-18_05:06:00 on domain   1:    0.24737 elapsed seconds
+Timing for main: time 2020-03-18_05:09:00 on domain   1:    0.23746 elapsed seconds
+Timing for main: time 2020-03-18_05:12:00 on domain   1:    0.24618 elapsed seconds
+Timing for main: time 2020-03-18_05:15:00 on domain   1:    0.23618 elapsed seconds
+Timing for main: time 2020-03-18_05:18:00 on domain   1:    0.24661 elapsed seconds
+Timing for main: time 2020-03-18_05:21:00 on domain   1:    0.23844 elapsed seconds
+Timing for main: time 2020-03-18_05:24:00 on domain   1:    0.24714 elapsed seconds
+Timing for main: time 2020-03-18_05:27:00 on domain   1:    0.23881 elapsed seconds
+Timing for main: time 2020-03-18_05:30:00 on domain   1:    0.24935 elapsed seconds
+Timing for main: time 2020-03-18_05:33:00 on domain   1:    1.99416 elapsed seconds
+Timing for main: time 2020-03-18_05:36:00 on domain   1:    0.24730 elapsed seconds
+Timing for main: time 2020-03-18_05:39:00 on domain   1:    0.23683 elapsed seconds
+Timing for main: time 2020-03-18_05:42:00 on domain   1:    0.24618 elapsed seconds
+Timing for main: time 2020-03-18_05:45:00 on domain   1:    0.23616 elapsed seconds
+Timing for main: time 2020-03-18_05:48:00 on domain   1:    0.24608 elapsed seconds
+Timing for main: time 2020-03-18_05:51:00 on domain   1:    0.23674 elapsed seconds
+Timing for main: time 2020-03-18_05:54:00 on domain   1:    0.24644 elapsed seconds
+Timing for main: time 2020-03-18_05:57:00 on domain   1:    0.23660 elapsed seconds
+Timing for main: time 2020-03-18_06:00:00 on domain   1:    0.24704 elapsed seconds
+Timing for Writing wrfout_d01_2020-03-18_06:00:00 for domain        1:    0.41600 elapsed seconds
+d01 2020-03-18_06:00:00  Input data is acceptable to use: wrfbdy_d01
+Timing for processing lateral boundary for domain        1:    0.11922 elapsed seconds
+Timing for main: time 2020-03-18_06:03:00 on domain   1:    2.51801 elapsed seconds
+Timing for main: time 2020-03-18_06:06:00 on domain   1:    0.24641 elapsed seconds
+Timing for main: time 2020-03-18_06:09:00 on domain   1:    0.23560 elapsed seconds
+Timing for main: time 2020-03-18_06:12:00 on domain   1:    0.24499 elapsed seconds
+Timing for main: time 2020-03-18_06:15:00 on domain   1:    0.23489 elapsed seconds
+Timing for main: time 2020-03-18_06:18:00 on domain   1:    0.24598 elapsed seconds
+Timing for main: time 2020-03-18_06:21:00 on domain   1:    0.23382 elapsed seconds
+Timing for main: time 2020-03-18_06:24:00 on domain   1:    0.24374 elapsed seconds
+Timing for main: time 2020-03-18_06:27:00 on domain   1:    0.23429 elapsed seconds
+Timing for main: time 2020-03-18_06:30:00 on domain   1:    0.24308 elapsed seconds
+Timing for main: time 2020-03-18_06:33:00 on domain   1:    1.98896 elapsed seconds
+Timing for main: time 2020-03-18_06:36:00 on domain   1:    0.24238 elapsed seconds
+Timing for main: time 2020-03-18_06:39:00 on domain   1:    0.23239 elapsed seconds
+Timing for main: time 2020-03-18_06:42:00 on domain   1:    0.24716 elapsed seconds
+Timing for main: time 2020-03-18_06:45:00 on domain   1:    0.23295 elapsed seconds
+Timing for main: time 2020-03-18_06:48:00 on domain   1:    0.24104 elapsed seconds
+Timing for main: time 2020-03-18_06:51:00 on domain   1:    0.23346 elapsed seconds
+Timing for main: time 2020-03-18_06:54:00 on domain   1:    0.24378 elapsed seconds
+Timing for main: time 2020-03-18_06:57:00 on domain   1:    0.23254 elapsed seconds
+Timing for main: time 2020-03-18_07:00:00 on domain   1:    0.24245 elapsed seconds
+Timing for Writing wrfout_d01_2020-03-18_07:00:00 for domain        1:    0.22784 elapsed seconds
+Timing for main: time 2020-03-18_07:03:00 on domain   1:    2.21598 elapsed seconds
+Timing for main: time 2020-03-18_07:06:00 on domain   1:    0.24460 elapsed seconds
+Timing for main: time 2020-03-18_07:09:00 on domain   1:    0.23383 elapsed seconds
+Timing for main: time 2020-03-18_07:12:00 on domain   1:    0.24235 elapsed seconds
+Timing for main: time 2020-03-18_07:15:00 on domain   1:    0.23256 elapsed seconds
+Timing for main: time 2020-03-18_07:18:00 on domain   1:    0.24272 elapsed seconds
+Timing for main: time 2020-03-18_07:21:00 on domain   1:    0.23273 elapsed seconds
+Timing for main: time 2020-03-18_07:24:00 on domain   1:    0.24268 elapsed seconds
+Timing for main: time 2020-03-18_07:27:00 on domain   1:    0.23220 elapsed seconds
+Timing for main: time 2020-03-18_07:30:00 on domain   1:    0.24177 elapsed seconds
+Timing for main: time 2020-03-18_07:33:00 on domain   1:    1.98524 elapsed seconds
+Timing for main: time 2020-03-18_07:36:00 on domain   1:    0.24019 elapsed seconds
+Timing for main: time 2020-03-18_07:39:00 on domain   1:    0.23074 elapsed seconds
+Timing for main: time 2020-03-18_07:42:00 on domain   1:    0.24164 elapsed seconds
+Timing for main: time 2020-03-18_07:45:00 on domain   1:    0.23090 elapsed seconds
+Timing for main: time 2020-03-18_07:48:00 on domain   1:    0.24123 elapsed seconds
+Timing for main: time 2020-03-18_07:51:00 on domain   1:    0.23059 elapsed seconds
+Timing for main: time 2020-03-18_07:54:00 on domain   1:    0.24024 elapsed seconds
+Timing for main: time 2020-03-18_07:57:00 on domain   1:    0.23014 elapsed seconds
+Timing for main: time 2020-03-18_08:00:00 on domain   1:    0.23995 elapsed seconds
+Timing for Writing wrfout_d01_2020-03-18_08:00:00 for domain        1:    0.22557 elapsed seconds
+Timing for main: time 2020-03-18_08:03:00 on domain   1:    2.20245 elapsed seconds
+Timing for main: time 2020-03-18_08:06:00 on domain   1:    0.23939 elapsed seconds
+Timing for main: time 2020-03-18_08:09:00 on domain   1:    0.23052 elapsed seconds
+Timing for main: time 2020-03-18_08:12:00 on domain   1:    0.23925 elapsed seconds
+Timing for main: time 2020-03-18_08:15:00 on domain   1:    0.22870 elapsed seconds
+Timing for main: time 2020-03-18_08:18:00 on domain   1:    0.23901 elapsed seconds
+Timing for main: time 2020-03-18_08:21:00 on domain   1:    0.22898 elapsed seconds
+Timing for main: time 2020-03-18_08:24:00 on domain   1:    0.23926 elapsed seconds
+Timing for main: time 2020-03-18_08:27:00 on domain   1:    0.22821 elapsed seconds
+Timing for main: time 2020-03-18_08:30:00 on domain   1:    0.24312 elapsed seconds
+Timing for main: time 2020-03-18_08:33:00 on domain   1:    1.97502 elapsed seconds
+Timing for main: time 2020-03-18_08:36:00 on domain   1:    0.23833 elapsed seconds
+Timing for main: time 2020-03-18_08:39:00 on domain   1:    0.22861 elapsed seconds
+Timing for main: time 2020-03-18_08:42:00 on domain   1:    0.24132 elapsed seconds
+Timing for main: time 2020-03-18_08:45:00 on domain   1:    0.22854 elapsed seconds
+Timing for main: time 2020-03-18_08:48:00 on domain   1:    0.23922 elapsed seconds
+Timing for main: time 2020-03-18_08:51:00 on domain   1:    0.22876 elapsed seconds
+Timing for main: time 2020-03-18_08:54:00 on domain   1:    0.23906 elapsed seconds
+Timing for main: time 2020-03-18_08:57:00 on domain   1:    0.22826 elapsed seconds
+Timing for main: time 2020-03-18_09:00:00 on domain   1:    0.23821 elapsed seconds
+Timing for Writing wrfout_d01_2020-03-18_09:00:00 for domain        1:    0.34407 elapsed seconds
+d01 2020-03-18_09:00:00  Input data is acceptable to use: wrfbdy_d01
+Timing for processing lateral boundary for domain        1:    0.14179 elapsed seconds
+Timing for main: time 2020-03-18_09:03:00 on domain   1:    2.46358 elapsed seconds
+Timing for main: time 2020-03-18_09:06:00 on domain   1:    0.23925 elapsed seconds
+Timing for main: time 2020-03-18_09:09:00 on domain   1:    0.22869 elapsed seconds
+Timing for main: time 2020-03-18_09:12:00 on domain   1:    0.23892 elapsed seconds
+Timing for main: time 2020-03-18_09:15:00 on domain   1:    0.22878 elapsed seconds
+Timing for main: time 2020-03-18_09:18:00 on domain   1:    0.23912 elapsed seconds
+Timing for main: time 2020-03-18_09:21:00 on domain   1:    0.22740 elapsed seconds
+Timing for main: time 2020-03-18_09:24:00 on domain   1:    0.23796 elapsed seconds
+Timing for main: time 2020-03-18_09:27:00 on domain   1:    0.22731 elapsed seconds
+Timing for main: time 2020-03-18_09:30:00 on domain   1:    0.23982 elapsed seconds
+Timing for main: time 2020-03-18_09:33:00 on domain   1:    1.98739 elapsed seconds
+Timing for main: time 2020-03-18_09:36:00 on domain   1:    0.23699 elapsed seconds
+Timing for main: time 2020-03-18_09:39:00 on domain   1:    0.22629 elapsed seconds
+Timing for main: time 2020-03-18_09:42:00 on domain   1:    0.23748 elapsed seconds
+Timing for main: time 2020-03-18_09:45:00 on domain   1:    0.22676 elapsed seconds
+Timing for main: time 2020-03-18_09:48:00 on domain   1:    0.23767 elapsed seconds
+Timing for main: time 2020-03-18_09:51:00 on domain   1:    0.22757 elapsed seconds
+Timing for main: time 2020-03-18_09:54:00 on domain   1:    0.23943 elapsed seconds
+Timing for main: time 2020-03-18_09:57:00 on domain   1:    0.22749 elapsed seconds
+Timing for main: time 2020-03-18_10:00:00 on domain   1:    0.23730 elapsed seconds
+Timing for Writing wrfout_d01_2020-03-18_10:00:00 for domain        1:    0.22310 elapsed seconds
+Timing for main: time 2020-03-18_10:03:00 on domain   1:    2.20419 elapsed seconds
+Timing for main: time 2020-03-18_10:06:00 on domain   1:    0.23756 elapsed seconds
+Timing for main: time 2020-03-18_10:09:00 on domain   1:    0.22886 elapsed seconds
+Timing for main: time 2020-03-18_10:12:00 on domain   1:    0.23786 elapsed seconds
+Timing for main: time 2020-03-18_10:15:00 on domain   1:    0.22624 elapsed seconds
+Timing for main: time 2020-03-18_10:18:00 on domain   1:    0.23655 elapsed seconds
+Timing for main: time 2020-03-18_10:21:00 on domain   1:    0.22574 elapsed seconds
+Timing for main: time 2020-03-18_10:24:00 on domain   1:    0.23651 elapsed seconds
+Timing for main: time 2020-03-18_10:27:00 on domain   1:    0.22536 elapsed seconds
+Timing for main: time 2020-03-18_10:30:00 on domain   1:    0.23664 elapsed seconds
+Timing for main: time 2020-03-18_10:33:00 on domain   1:    1.97485 elapsed seconds
+Timing for main: time 2020-03-18_10:36:00 on domain   1:    0.23665 elapsed seconds
+Timing for main: time 2020-03-18_10:39:00 on domain   1:    0.22590 elapsed seconds
+Timing for main: time 2020-03-18_10:42:00 on domain   1:    0.24463 elapsed seconds
+Timing for main: time 2020-03-18_10:45:00 on domain   1:    0.22538 elapsed seconds
+Timing for main: time 2020-03-18_10:48:00 on domain   1:    0.23628 elapsed seconds
+Timing for main: time 2020-03-18_10:51:00 on domain   1:    0.22457 elapsed seconds
+Timing for main: time 2020-03-18_10:54:00 on domain   1:    0.23573 elapsed seconds
+Timing for main: time 2020-03-18_10:57:00 on domain   1:    0.22504 elapsed seconds
+Timing for main: time 2020-03-18_11:00:00 on domain   1:    0.23560 elapsed seconds
+Timing for Writing wrfout_d01_2020-03-18_11:00:00 for domain        1:    0.23023 elapsed seconds
+Timing for main: time 2020-03-18_11:03:00 on domain   1:    2.20811 elapsed seconds
+Timing for main: time 2020-03-18_11:06:00 on domain   1:    0.23620 elapsed seconds
+Timing for main: time 2020-03-18_11:09:00 on domain   1:    0.22475 elapsed seconds
+Timing for main: time 2020-03-18_11:12:00 on domain   1:    0.23509 elapsed seconds
+Timing for main: time 2020-03-18_11:15:00 on domain   1:    0.22362 elapsed seconds
+Timing for main: time 2020-03-18_11:18:00 on domain   1:    0.23439 elapsed seconds
+Timing for main: time 2020-03-18_11:21:00 on domain   1:    0.22406 elapsed seconds
+Timing for main: time 2020-03-18_11:24:00 on domain   1:    0.23508 elapsed seconds
+Timing for main: time 2020-03-18_11:27:00 on domain   1:    0.22409 elapsed seconds
+Timing for main: time 2020-03-18_11:30:00 on domain   1:    0.23465 elapsed seconds
+Timing for main: time 2020-03-18_11:33:00 on domain   1:    1.97847 elapsed seconds
+Timing for main: time 2020-03-18_11:36:00 on domain   1:    0.23522 elapsed seconds
+Timing for main: time 2020-03-18_11:39:00 on domain   1:    0.22843 elapsed seconds
+Timing for main: time 2020-03-18_11:42:00 on domain   1:    0.23442 elapsed seconds
+Timing for main: time 2020-03-18_11:45:00 on domain   1:    0.22359 elapsed seconds
+Timing for main: time 2020-03-18_11:48:00 on domain   1:    0.23497 elapsed seconds
+Timing for main: time 2020-03-18_11:51:00 on domain   1:    0.22398 elapsed seconds
+Timing for main: time 2020-03-18_11:54:00 on domain   1:    0.23398 elapsed seconds
+Timing for main: time 2020-03-18_11:57:00 on domain   1:    0.22243 elapsed seconds
+Timing for main: time 2020-03-18_12:00:00 on domain   1:    0.23427 elapsed seconds
+Timing for Writing wrfout_d01_2020-03-18_12:00:00 for domain        1:    2.51741 elapsed seconds
+d01 2020-03-18_12:00:00  Input data is acceptable to use: wrfbdy_d01
+Timing for processing lateral boundary for domain        1:    0.25734 elapsed seconds
+Timing for main: time 2020-03-18_12:03:00 on domain   1:    4.74802 elapsed seconds
+Timing for main: time 2020-03-18_12:06:00 on domain   1:    0.23456 elapsed seconds
+Timing for main: time 2020-03-18_12:09:00 on domain   1:    0.22400 elapsed seconds
+Timing for main: time 2020-03-18_12:12:00 on domain   1:    0.23407 elapsed seconds
+Timing for main: time 2020-03-18_12:15:00 on domain   1:    0.22302 elapsed seconds
+Timing for main: time 2020-03-18_12:18:00 on domain   1:    0.23414 elapsed seconds
+Timing for main: time 2020-03-18_12:21:00 on domain   1:    0.22241 elapsed seconds
+Timing for main: time 2020-03-18_12:24:00 on domain   1:    0.23355 elapsed seconds
+Timing for main: time 2020-03-18_12:27:00 on domain   1:    0.22325 elapsed seconds
+Timing for main: time 2020-03-18_12:30:00 on domain   1:    0.23265 elapsed seconds
+Timing for main: time 2020-03-18_12:33:00 on domain   1:    1.99417 elapsed seconds
+Timing for main: time 2020-03-18_12:36:00 on domain   1:    0.23200 elapsed seconds
+Timing for main: time 2020-03-18_12:39:00 on domain   1:    0.22114 elapsed seconds
+Timing for main: time 2020-03-18_12:42:00 on domain   1:    0.23195 elapsed seconds
+Timing for main: time 2020-03-18_12:45:00 on domain   1:    0.22162 elapsed seconds
+Timing for main: time 2020-03-18_12:48:00 on domain   1:    0.23329 elapsed seconds
+Timing for main: time 2020-03-18_12:51:00 on domain   1:    0.22369 elapsed seconds
+Timing for main: time 2020-03-18_12:54:00 on domain   1:    0.23529 elapsed seconds
+Timing for main: time 2020-03-18_12:57:00 on domain   1:    0.22235 elapsed seconds
+Timing for main: time 2020-03-18_13:00:00 on domain   1:    0.23342 elapsed seconds
+Timing for Writing wrfout_d01_2020-03-18_13:00:00 for domain        1:    0.22597 elapsed seconds
+Timing for main: time 2020-03-18_13:03:00 on domain   1:    2.23411 elapsed seconds
+Timing for main: time 2020-03-18_13:06:00 on domain   1:    0.23091 elapsed seconds
+Timing for main: time 2020-03-18_13:09:00 on domain   1:    0.21945 elapsed seconds
+Timing for main: time 2020-03-18_13:12:00 on domain   1:    0.22979 elapsed seconds
+Timing for main: time 2020-03-18_13:15:00 on domain   1:    0.21914 elapsed seconds
+Timing for main: time 2020-03-18_13:18:00 on domain   1:    0.23042 elapsed seconds
+Timing for main: time 2020-03-18_13:21:00 on domain   1:    0.21879 elapsed seconds
+Timing for main: time 2020-03-18_13:24:00 on domain   1:    0.22944 elapsed seconds
+Timing for main: time 2020-03-18_13:27:00 on domain   1:    0.22130 elapsed seconds
+Timing for main: time 2020-03-18_13:30:00 on domain   1:    0.22940 elapsed seconds
+Timing for main: time 2020-03-18_13:33:00 on domain   1:    2.02170 elapsed seconds
+Timing for main: time 2020-03-18_13:36:00 on domain   1:    0.22949 elapsed seconds
+Timing for main: time 2020-03-18_13:39:00 on domain   1:    0.21844 elapsed seconds
+Timing for main: time 2020-03-18_13:42:00 on domain   1:    0.22910 elapsed seconds
+Timing for main: time 2020-03-18_13:45:00 on domain   1:    0.21745 elapsed seconds
+Timing for main: time 2020-03-18_13:48:00 on domain   1:    0.22908 elapsed seconds
+Timing for main: time 2020-03-18_13:51:00 on domain   1:    0.21793 elapsed seconds
+Timing for main: time 2020-03-18_13:54:00 on domain   1:    0.22829 elapsed seconds
+Timing for main: time 2020-03-18_13:57:00 on domain   1:    0.21716 elapsed seconds
+Timing for main: time 2020-03-18_14:00:00 on domain   1:    0.22754 elapsed seconds
+Timing for Writing wrfout_d01_2020-03-18_14:00:00 for domain        1:    0.22346 elapsed seconds
+Timing for main: time 2020-03-18_14:03:00 on domain   1:    2.25897 elapsed seconds
+Timing for main: time 2020-03-18_14:06:00 on domain   1:    0.22571 elapsed seconds
+Timing for main: time 2020-03-18_14:09:00 on domain   1:    0.21564 elapsed seconds
+Timing for main: time 2020-03-18_14:12:00 on domain   1:    0.22650 elapsed seconds
+Timing for main: time 2020-03-18_14:15:00 on domain   1:    0.21539 elapsed seconds
+Timing for main: time 2020-03-18_14:18:00 on domain   1:    0.22601 elapsed seconds
+Timing for main: time 2020-03-18_14:21:00 on domain   1:    0.21474 elapsed seconds
+Timing for main: time 2020-03-18_14:24:00 on domain   1:    0.22544 elapsed seconds
+Timing for main: time 2020-03-18_14:27:00 on domain   1:    0.21602 elapsed seconds
+Timing for main: time 2020-03-18_14:30:00 on domain   1:    0.22571 elapsed seconds
+Timing for main: time 2020-03-18_14:33:00 on domain   1:    1.28239 elapsed seconds
+Timing for main: time 2020-03-18_14:36:00 on domain   1:    0.22573 elapsed seconds
+Timing for main: time 2020-03-18_14:39:00 on domain   1:    0.21843 elapsed seconds
+Timing for main: time 2020-03-18_14:42:00 on domain   1:    0.22631 elapsed seconds
+Timing for main: time 2020-03-18_14:45:00 on domain   1:    0.21507 elapsed seconds
+Timing for main: time 2020-03-18_14:48:00 on domain   1:    0.22516 elapsed seconds
+Timing for main: time 2020-03-18_14:51:00 on domain   1:    0.21515 elapsed seconds
+Timing for main: time 2020-03-18_14:54:00 on domain   1:    0.22598 elapsed seconds
+Timing for main: time 2020-03-18_14:57:00 on domain   1:    0.21513 elapsed seconds
+Timing for main: time 2020-03-18_15:00:00 on domain   1:    0.22599 elapsed seconds
+Timing for Writing wrfout_d01_2020-03-18_15:00:00 for domain        1:    0.22286 elapsed seconds
+d01 2020-03-18_15:00:00  Input data is acceptable to use: wrfbdy_d01
+Timing for processing lateral boundary for domain        1:    0.03841 elapsed seconds
+Timing for main: time 2020-03-18_15:03:00 on domain   1:    1.00133 elapsed seconds
+Timing for main: time 2020-03-18_15:06:00 on domain   1:    0.22934 elapsed seconds
+Timing for main: time 2020-03-18_15:09:00 on domain   1:    0.21629 elapsed seconds
+Timing for main: time 2020-03-18_15:12:00 on domain   1:    0.22564 elapsed seconds
+Timing for main: time 2020-03-18_15:15:00 on domain   1:    0.21530 elapsed seconds
+Timing for main: time 2020-03-18_15:18:00 on domain   1:    0.22557 elapsed seconds
+Timing for main: time 2020-03-18_15:21:00 on domain   1:    0.21474 elapsed seconds
+Timing for main: time 2020-03-18_15:24:00 on domain   1:    0.22509 elapsed seconds
+Timing for main: time 2020-03-18_15:27:00 on domain   1:    0.21522 elapsed seconds
+Timing for main: time 2020-03-18_15:30:00 on domain   1:    0.22529 elapsed seconds
+Timing for main: time 2020-03-18_15:33:00 on domain   1:    0.74249 elapsed seconds
+Timing for main: time 2020-03-18_15:36:00 on domain   1:    0.22613 elapsed seconds
+Timing for main: time 2020-03-18_15:39:00 on domain   1:    0.21611 elapsed seconds
+Timing for main: time 2020-03-18_15:42:00 on domain   1:    0.22593 elapsed seconds
+Timing for main: time 2020-03-18_15:45:00 on domain   1:    0.21625 elapsed seconds
+Timing for main: time 2020-03-18_15:48:00 on domain   1:    0.22671 elapsed seconds
+Timing for main: time 2020-03-18_15:51:00 on domain   1:    0.22005 elapsed seconds
+Timing for main: time 2020-03-18_15:54:00 on domain   1:    0.22871 elapsed seconds
+Timing for main: time 2020-03-18_15:57:00 on domain   1:    0.21821 elapsed seconds
+Timing for main: time 2020-03-18_16:00:00 on domain   1:    0.22832 elapsed seconds
+Timing for Writing wrfout_d01_2020-03-18_16:00:00 for domain        1:    0.91887 elapsed seconds
+Timing for main: time 2020-03-18_16:03:00 on domain   1:    1.66374 elapsed seconds
+Timing for main: time 2020-03-18_16:06:00 on domain   1:    0.22777 elapsed seconds
+Timing for main: time 2020-03-18_16:09:00 on domain   1:    0.21831 elapsed seconds
+Timing for main: time 2020-03-18_16:12:00 on domain   1:    0.22864 elapsed seconds
+Timing for main: time 2020-03-18_16:15:00 on domain   1:    0.21852 elapsed seconds
+Timing for main: time 2020-03-18_16:18:00 on domain   1:    0.22772 elapsed seconds
+Timing for main: time 2020-03-18_16:21:00 on domain   1:    0.22318 elapsed seconds
+Timing for main: time 2020-03-18_16:24:00 on domain   1:    0.22925 elapsed seconds
+Timing for main: time 2020-03-18_16:27:00 on domain   1:    0.21842 elapsed seconds
+Timing for main: time 2020-03-18_16:30:00 on domain   1:    0.22907 elapsed seconds
+Timing for main: time 2020-03-18_16:33:00 on domain   1:    0.74713 elapsed seconds
+Timing for main: time 2020-03-18_16:36:00 on domain   1:    0.23050 elapsed seconds
+Timing for main: time 2020-03-18_16:39:00 on domain   1:    0.21991 elapsed seconds
+Timing for main: time 2020-03-18_16:42:00 on domain   1:    0.22956 elapsed seconds
+Timing for main: time 2020-03-18_16:45:00 on domain   1:    0.22156 elapsed seconds
+Timing for main: time 2020-03-18_16:48:00 on domain   1:    0.23062 elapsed seconds
+Timing for main: time 2020-03-18_16:51:00 on domain   1:    0.22095 elapsed seconds
+Timing for main: time 2020-03-18_16:54:00 on domain   1:    0.23093 elapsed seconds
+Timing for main: time 2020-03-18_16:57:00 on domain   1:    0.22218 elapsed seconds
+Timing for main: time 2020-03-18_17:00:00 on domain   1:    0.23178 elapsed seconds
+Timing for Writing wrfout_d01_2020-03-18_17:00:00 for domain        1:    0.22810 elapsed seconds
+Timing for main: time 2020-03-18_17:03:00 on domain   1:    0.98081 elapsed seconds
+Timing for main: time 2020-03-18_17:06:00 on domain   1:    0.23194 elapsed seconds
+Timing for main: time 2020-03-18_17:09:00 on domain   1:    0.22259 elapsed seconds
+Timing for main: time 2020-03-18_17:12:00 on domain   1:    0.23312 elapsed seconds
+Timing for main: time 2020-03-18_17:15:00 on domain   1:    0.22357 elapsed seconds
+Timing for main: time 2020-03-18_17:18:00 on domain   1:    0.23269 elapsed seconds
+Timing for main: time 2020-03-18_17:21:00 on domain   1:    0.22369 elapsed seconds
+Timing for main: time 2020-03-18_17:24:00 on domain   1:    0.23401 elapsed seconds
+Timing for main: time 2020-03-18_17:27:00 on domain   1:    0.22401 elapsed seconds
+Timing for main: time 2020-03-18_17:30:00 on domain   1:    0.23418 elapsed seconds
+Timing for main: time 2020-03-18_17:33:00 on domain   1:    0.75418 elapsed seconds
+Timing for main: time 2020-03-18_17:36:00 on domain   1:    0.23419 elapsed seconds
+Timing for main: time 2020-03-18_17:39:00 on domain   1:    0.22449 elapsed seconds
+Timing for main: time 2020-03-18_17:42:00 on domain   1:    0.23498 elapsed seconds
+Timing for main: time 2020-03-18_17:45:00 on domain   1:    0.22512 elapsed seconds
+Timing for main: time 2020-03-18_17:48:00 on domain   1:    0.23511 elapsed seconds
+Timing for main: time 2020-03-18_17:51:00 on domain   1:    0.22558 elapsed seconds
+Timing for main: time 2020-03-18_17:54:00 on domain   1:    0.23598 elapsed seconds
+Timing for main: time 2020-03-18_17:57:00 on domain   1:    0.22581 elapsed seconds
+Timing for main: time 2020-03-18_18:00:00 on domain   1:    0.23646 elapsed seconds
+Timing for Writing wrfout_d01_2020-03-18_18:00:00 for domain        1:    0.22588 elapsed seconds
+d01 2020-03-18_18:00:00  Input data is acceptable to use: wrfbdy_d01
+Timing for processing lateral boundary for domain        1:    0.06959 elapsed seconds
+Timing for main: time 2020-03-18_18:03:00 on domain   1:    1.05260 elapsed seconds
+Timing for main: time 2020-03-18_18:06:00 on domain   1:    0.23659 elapsed seconds
+Timing for main: time 2020-03-18_18:09:00 on domain   1:    0.22736 elapsed seconds
+Timing for main: time 2020-03-18_18:12:00 on domain   1:    0.23822 elapsed seconds
+Timing for main: time 2020-03-18_18:15:00 on domain   1:    0.22787 elapsed seconds
+Timing for main: time 2020-03-18_18:18:00 on domain   1:    0.23786 elapsed seconds
+Timing for main: time 2020-03-18_18:21:00 on domain   1:    0.22877 elapsed seconds
+Timing for main: time 2020-03-18_18:24:00 on domain   1:    0.23909 elapsed seconds
+Timing for main: time 2020-03-18_18:27:00 on domain   1:    0.22886 elapsed seconds
+Timing for main: time 2020-03-18_18:30:00 on domain   1:    0.23913 elapsed seconds
+Timing for main: time 2020-03-18_18:33:00 on domain   1:    0.76013 elapsed seconds
+Timing for main: time 2020-03-18_18:36:00 on domain   1:    0.23906 elapsed seconds
+Timing for main: time 2020-03-18_18:39:00 on domain   1:    0.22902 elapsed seconds
+Timing for main: time 2020-03-18_18:42:00 on domain   1:    0.24044 elapsed seconds
+Timing for main: time 2020-03-18_18:45:00 on domain   1:    0.22982 elapsed seconds
+Timing for main: time 2020-03-18_18:48:00 on domain   1:    0.24037 elapsed seconds
+Timing for main: time 2020-03-18_18:51:00 on domain   1:    0.23041 elapsed seconds
+Timing for main: time 2020-03-18_18:54:00 on domain   1:    0.24141 elapsed seconds
+Timing for main: time 2020-03-18_18:57:00 on domain   1:    0.23168 elapsed seconds
+Timing for main: time 2020-03-18_19:00:00 on domain   1:    0.24224 elapsed seconds
+Timing for Writing wrfout_d01_2020-03-18_19:00:00 for domain        1:    0.22408 elapsed seconds
+Timing for main: time 2020-03-18_19:03:00 on domain   1:    0.98842 elapsed seconds
+Timing for main: time 2020-03-18_19:06:00 on domain   1:    0.24371 elapsed seconds
+Timing for main: time 2020-03-18_19:09:00 on domain   1:    0.23246 elapsed seconds
+Timing for main: time 2020-03-18_19:12:00 on domain   1:    0.24258 elapsed seconds
+Timing for main: time 2020-03-18_19:15:00 on domain   1:    0.23326 elapsed seconds
+Timing for main: time 2020-03-18_19:18:00 on domain   1:    0.24325 elapsed seconds
+Timing for main: time 2020-03-18_19:21:00 on domain   1:    0.23374 elapsed seconds
+Timing for main: time 2020-03-18_19:24:00 on domain   1:    0.24406 elapsed seconds
+Timing for main: time 2020-03-18_19:27:00 on domain   1:    0.23462 elapsed seconds
+Timing for main: time 2020-03-18_19:30:00 on domain   1:    0.24478 elapsed seconds
+Timing for main: time 2020-03-18_19:33:00 on domain   1:    0.77492 elapsed seconds
+Timing for main: time 2020-03-18_19:36:00 on domain   1:    0.24474 elapsed seconds
+Timing for main: time 2020-03-18_19:39:00 on domain   1:    0.23640 elapsed seconds
+Timing for main: time 2020-03-18_19:42:00 on domain   1:    0.24650 elapsed seconds
+Timing for main: time 2020-03-18_19:45:00 on domain   1:    0.23920 elapsed seconds
+Timing for main: time 2020-03-18_19:48:00 on domain   1:    0.24675 elapsed seconds
+Timing for main: time 2020-03-18_19:51:00 on domain   1:    0.23621 elapsed seconds
+Timing for main: time 2020-03-18_19:54:00 on domain   1:    0.24703 elapsed seconds
+Timing for main: time 2020-03-18_19:57:00 on domain   1:    0.23783 elapsed seconds
+Timing for main: time 2020-03-18_20:00:00 on domain   1:    0.24720 elapsed seconds
+Timing for Writing wrfout_d01_2020-03-18_20:00:00 for domain        1:    0.22358 elapsed seconds
+Timing for main: time 2020-03-18_20:03:00 on domain   1:    0.99505 elapsed seconds
+Timing for main: time 2020-03-18_20:06:00 on domain   1:    0.25236 elapsed seconds
+Timing for main: time 2020-03-18_20:09:00 on domain   1:    0.23853 elapsed seconds
+Timing for main: time 2020-03-18_20:12:00 on domain   1:    0.24771 elapsed seconds
+Timing for main: time 2020-03-18_20:15:00 on domain   1:    0.23720 elapsed seconds
+Timing for main: time 2020-03-18_20:18:00 on domain   1:    0.24721 elapsed seconds
+Timing for main: time 2020-03-18_20:21:00 on domain   1:    0.23834 elapsed seconds
+Timing for main: time 2020-03-18_20:24:00 on domain   1:    0.24844 elapsed seconds
+Timing for main: time 2020-03-18_20:27:00 on domain   1:    0.23825 elapsed seconds
+Timing for main: time 2020-03-18_20:30:00 on domain   1:    0.24796 elapsed seconds
+Timing for main: time 2020-03-18_20:33:00 on domain   1:    0.77176 elapsed seconds
+Timing for main: time 2020-03-18_20:36:00 on domain   1:    0.24838 elapsed seconds
+Timing for main: time 2020-03-18_20:39:00 on domain   1:    0.23811 elapsed seconds
+Timing for main: time 2020-03-18_20:42:00 on domain   1:    0.24852 elapsed seconds
+Timing for main: time 2020-03-18_20:45:00 on domain   1:    0.23832 elapsed seconds
+Timing for main: time 2020-03-18_20:48:00 on domain   1:    0.24890 elapsed seconds
+Timing for main: time 2020-03-18_20:51:00 on domain   1:    0.23897 elapsed seconds
+Timing for main: time 2020-03-18_20:54:00 on domain   1:    0.24873 elapsed seconds
+Timing for main: time 2020-03-18_20:57:00 on domain   1:    0.23910 elapsed seconds
+Timing for main: time 2020-03-18_21:00:00 on domain   1:    0.24838 elapsed seconds
+Timing for Writing wrfout_d01_2020-03-18_21:00:00 for domain        1:    0.22120 elapsed seconds
+d01 2020-03-18_21:00:00  Input data is acceptable to use: wrfbdy_d01
+Timing for processing lateral boundary for domain        1:    0.03943 elapsed seconds
+Timing for main: time 2020-03-18_21:03:00 on domain   1:    1.03251 elapsed seconds
+Timing for main: time 2020-03-18_21:06:00 on domain   1:    0.24843 elapsed seconds
+Timing for main: time 2020-03-18_21:09:00 on domain   1:    0.23850 elapsed seconds
+Timing for main: time 2020-03-18_21:12:00 on domain   1:    0.24906 elapsed seconds
+Timing for main: time 2020-03-18_21:15:00 on domain   1:    0.23891 elapsed seconds
+Timing for main: time 2020-03-18_21:18:00 on domain   1:    0.24883 elapsed seconds
+Timing for main: time 2020-03-18_21:21:00 on domain   1:    0.23843 elapsed seconds
+Timing for main: time 2020-03-18_21:24:00 on domain   1:    0.24885 elapsed seconds
+Timing for main: time 2020-03-18_21:27:00 on domain   1:    0.23866 elapsed seconds
+Timing for main: time 2020-03-18_21:30:00 on domain   1:    0.25020 elapsed seconds
+Timing for main: time 2020-03-18_21:33:00 on domain   1:    0.77307 elapsed seconds
+Timing for main: time 2020-03-18_21:36:00 on domain   1:    0.24890 elapsed seconds
+Timing for main: time 2020-03-18_21:39:00 on domain   1:    0.23848 elapsed seconds
+Timing for main: time 2020-03-18_21:42:00 on domain   1:    0.25041 elapsed seconds
+Timing for main: time 2020-03-18_21:45:00 on domain   1:    0.23895 elapsed seconds
+Timing for main: time 2020-03-18_21:48:00 on domain   1:    0.24926 elapsed seconds
+Timing for main: time 2020-03-18_21:51:00 on domain   1:    0.23934 elapsed seconds
+Timing for main: time 2020-03-18_21:54:00 on domain   1:    0.24967 elapsed seconds
+Timing for main: time 2020-03-18_21:57:00 on domain   1:    0.23923 elapsed seconds
+Timing for main: time 2020-03-18_22:00:00 on domain   1:    0.24972 elapsed seconds
+Timing for Writing wrfout_d01_2020-03-18_22:00:00 for domain        1:    0.22861 elapsed seconds
+Timing for main: time 2020-03-18_22:03:00 on domain   1:    1.00325 elapsed seconds
+Timing for main: time 2020-03-18_22:06:00 on domain   1:    0.25059 elapsed seconds
+Timing for main: time 2020-03-18_22:09:00 on domain   1:    0.24065 elapsed seconds
+Timing for main: time 2020-03-18_22:12:00 on domain   1:    0.25026 elapsed seconds
+Timing for main: time 2020-03-18_22:15:00 on domain   1:    0.24006 elapsed seconds
+Timing for main: time 2020-03-18_22:18:00 on domain   1:    0.25027 elapsed seconds
+Timing for main: time 2020-03-18_22:21:00 on domain   1:    0.23988 elapsed seconds
+Timing for main: time 2020-03-18_22:24:00 on domain   1:    0.24958 elapsed seconds
+Timing for main: time 2020-03-18_22:27:00 on domain   1:    0.23955 elapsed seconds
+Timing for main: time 2020-03-18_22:30:00 on domain   1:    0.24937 elapsed seconds
+Timing for main: time 2020-03-18_22:33:00 on domain   1:    0.77413 elapsed seconds
+Timing for main: time 2020-03-18_22:36:00 on domain   1:    0.25012 elapsed seconds
+Timing for main: time 2020-03-18_22:39:00 on domain   1:    0.24044 elapsed seconds
+Timing for main: time 2020-03-18_22:42:00 on domain   1:    0.25032 elapsed seconds
+Timing for main: time 2020-03-18_22:45:00 on domain   1:    0.23986 elapsed seconds
+Timing for main: time 2020-03-18_22:48:00 on domain   1:    0.24982 elapsed seconds
+Timing for main: time 2020-03-18_22:51:00 on domain   1:    0.23995 elapsed seconds
+Timing for main: time 2020-03-18_22:54:00 on domain   1:    0.25185 elapsed seconds
+Timing for main: time 2020-03-18_22:57:00 on domain   1:    0.24034 elapsed seconds
+Timing for main: time 2020-03-18_23:00:00 on domain   1:    0.25052 elapsed seconds
+Timing for Writing wrfout_d01_2020-03-18_23:00:00 for domain        1:    0.22655 elapsed seconds
+Timing for main: time 2020-03-18_23:03:00 on domain   1:    0.99973 elapsed seconds
+Timing for main: time 2020-03-18_23:06:00 on domain   1:    0.24960 elapsed seconds
+Timing for main: time 2020-03-18_23:09:00 on domain   1:    0.23951 elapsed seconds
+Timing for main: time 2020-03-18_23:12:00 on domain   1:    0.24888 elapsed seconds
+Timing for main: time 2020-03-18_23:15:00 on domain   1:    0.23877 elapsed seconds
+Timing for main: time 2020-03-18_23:18:00 on domain   1:    0.24929 elapsed seconds
+Timing for main: time 2020-03-18_23:21:00 on domain   1:    0.23882 elapsed seconds
+Timing for main: time 2020-03-18_23:24:00 on domain   1:    0.24846 elapsed seconds
+Timing for main: time 2020-03-18_23:27:00 on domain   1:    0.23804 elapsed seconds
+Timing for main: time 2020-03-18_23:30:00 on domain   1:    0.24879 elapsed seconds
+Timing for main: time 2020-03-18_23:33:00 on domain   1:    0.77202 elapsed seconds
+Timing for main: time 2020-03-18_23:36:00 on domain   1:    0.24840 elapsed seconds
+Timing for main: time 2020-03-18_23:39:00 on domain   1:    0.23810 elapsed seconds
+Timing for main: time 2020-03-18_23:42:00 on domain   1:    0.24822 elapsed seconds
+Timing for main: time 2020-03-18_23:45:00 on domain   1:    0.23819 elapsed seconds
+Timing for main: time 2020-03-18_23:48:00 on domain   1:    0.24840 elapsed seconds
+Timing for main: time 2020-03-18_23:51:00 on domain   1:    0.23774 elapsed seconds
+Timing for main: time 2020-03-18_23:54:00 on domain   1:    0.24742 elapsed seconds
+Timing for main: time 2020-03-18_23:57:00 on domain   1:    0.23755 elapsed seconds
+Timing for main: time 2020-03-19_00:00:00 on domain   1:    0.24768 elapsed seconds
+Timing for Writing wrfout_d01_2020-03-19_00:00:00 for domain        1:    0.22450 elapsed seconds
+d01 2020-03-19_00:00:00 wrf: SUCCESS COMPLETE WRF
